@@ -18,9 +18,9 @@ st.set_page_config(
 )
 
 # 사이드바: 메뉴 선택 및 데이터 표시
-CCTV_CSV_PATH = r"C:\Users\user\OneDrive\바탕 화면\geunmin\경찰서 관련\전처리_지오코딩.csv"
-BELL_CSV_PATH = r"C:\Users\user\OneDrive\바탕 화면\geunmin\경찰서 관련\비상벨_지오코딩.csv"
-PATROL_CSV_PATH = r"C:\Users\user\OneDrive\바탕 화면\geunmin\경찰서 관련\patrol_Geocoding.csv"  # 지오코딩된 X, Y 포함
+CCTV_CSV_PATH = "전처리_지오코딩.csv"
+BELL_CSV_PATH = "비상벨_지오코딩.csv"
+PATROL_CSV_PATH = "patrol_Geocoding.csv"  # 지오코딩된 X, Y 포함
 
 # 데이터 로드
 cctv_df = pd.read_csv(CCTV_CSV_PATH) if os.path.exists(CCTV_CSV_PATH) else None
