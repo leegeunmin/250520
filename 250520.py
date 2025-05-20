@@ -142,3 +142,15 @@ elif mode == "순찰 추천":
 st.markdown(f"""<div style="text-align:center; color:{text_color}; font-size:14px; margin-top:10px;>
 본 어플은 고양경찰서 범죄예방대응과 제작하였습니다.
 </div>""", unsafe_allow_html=True)
+
+st.markdown(
+                f"""
+                <div style="text-align: center; font-size: 16px; color: {text_color}; margin-top: 20px;">
+                    <b>아래의 링크를 통해 경찰서 범죄예방진단팀에게<br>
+                    취약지역을 통보해주세요.<br>
+                    <a href="https://open.kakao.com/o/scgaTwdh" target="_blank" style="color: blue; font-weight: bold;">👉 고양경찰서 범죄예방진단팀</a><br>
+                     <br>
+                    대원분들의 소중한 의견을 통해 <br>
+                    안전한 우리동네가 만들어집니다.</b>
+                </div>
+                """, unsafe_allow_html=True)
